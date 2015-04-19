@@ -1,5 +1,5 @@
 /*
-* Align To plugin for Sketch.app
+* Sketch-DistributeWithSpace plugin for Sketch.app
 * Author: Artem Korotkikh
 * Version: 1.0
 */
