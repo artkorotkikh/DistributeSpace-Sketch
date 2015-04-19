@@ -1,11 +1,11 @@
-DistributeSpace-Sketch
+Sketch-DistributeWithSpace
 =================
-Plugin for Sketch that allows to distribute vertical and horizontal space between selected objects.
+Plugin for Sketch that allows to distribute vertical and horizontal space between selected layers.
 
 #Shortcuts
-⌘ + ⌥ + ⇧ + V — distribute vertical with space
+⌘ + ⌥ + ctrl + V — distribute vertical with space
 
-⌘ + ⌥ + ⇧ + H — distribute horizontal with space
+⌘ + ⌥ + ctrl + H — distribute horizontal with space
 
 ![horizontal example](./images/horizontal.gif)
 ![vertical example](./images/vertical.gif)
