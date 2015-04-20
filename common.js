@@ -23,6 +23,12 @@ function distributeSpace(direction){
 
 		}
 
+		var sortirator = function(a, b){
+				var x=a[0];
+				var y=b[0];
+				return x-y;
+		}
+
 		var result = getSpace('Set spacing')
 		if(result[0] == 1000)
 		{
@@ -30,11 +36,7 @@ function distributeSpace(direction){
 			switch (direction){
 				case "vertical":
 
-					minYs.sort(function(a, b){
-					    var x=a[0];
-					    var y=b[0];
-					    return x-y;
-					});
+					minYs.sort(sortirator);
 
 					for (var i=0; i < minYs.length - 1 ; i++)
 					{
@@ -49,11 +51,7 @@ function distributeSpace(direction){
 					break;
 				case "horizontal":
 
-					minXs.sort(function(a, b){
-					    var x=a[0];
-					    var y=b[0];
-					    return x-y;
-					});
+					minXs.sort(sortirator);
 
 					for (var i=0; i < minXs.length - 1 ; i++)
 					{
